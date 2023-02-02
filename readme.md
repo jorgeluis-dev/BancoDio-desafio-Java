@@ -1,14 +1,33 @@
-###Banco Digital Dio - Santander Bootcamp. Developed for Studies referring to the Java language. Object Oriented Penter code hererogramming and other concepts
-Challenge: Considering our knowledge in the banking domain, we will abstract an Object Oriented solution in Java. To do this, we will interpret the following scenario: “A bank offers its customers two types of accounts (current and savings), which have the functionality of deposit, withdrawal and transfer (between the institution’s own accounts).”
 
-#Abstraction
-Ability to focus on essential aspects of a domain, ignoring less important or accidental features. In this context, objects are abstractions of existing entities in the domain in question.
+# BancoDio Desafio Java
 
-#encapsulation
-Encapsulating means hiding the implementation of objects, thus creating more concise and easier to use/understand user interfaces. Encapsulation mainly favors two aspects of a system: maintenance and evolution.
+Este é um projeto de desafio de programação Java para o BancoDio. Ele consiste em implementar uma aplicação de gerenciamento bancário que permite aos usuários realizar operações bancárias, como saques, depósitos e transferências.
 
-#Heritage
-Allows you to define a child class that reuses (inherits), extends, or modifies the behavior of a parent class. The class whose members are inherited is called the base class. The class that inherits the members of the base class is called a derived class.
+## Recursos
 
-#````Polymorphism
-The ability of an object to be referenced in various ways, that is, the ability to treat objects created from specific classes as objects of a generic class. Be careful, polymorphism does not mean that the object keeps changing, on the contrary, an object is born of a type and dies of that type, what can change is the way we refer to it.
+-   Criação de contas bancárias
+-   Saques
+-   Depósitos
+-   Transferências entre contas
+-   Consulta de saldo
+
+## Instruções para uso
+
+1.  Clone o repositório usando o comando `git clone https://github.com/jorgeluis-dev/BancoDio-desafio-Java.git`
+2.  Abra o projeto em sua IDE Java favorita
+3.  Execute a classe `Main` como aplicação Java
+4.  Siga as instruções no console para realizar as operações bancárias
+
+## Contribuições
+
+Contribuições são sempre bem-vindas. Para contribuir, siga os seguintes passos:
+
+1.  Fork o repositório
+2.  Crie sua branch de característica (`git checkout -b feature/newFeature`)
+3.  Commit suas mudanças (`git commit -m 'Adicionado nova funcionalidade'`)
+4.  Push na sua branch (`git push origin feature/newFeature`)
+5.  Crie um Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Mais detalhes podem ser encontrados no arquivo [LICENSE](https://github.com/jorgeluis-dev/BancoDio-desafio-Java/blob/master/LICENSE).
